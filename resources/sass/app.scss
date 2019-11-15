@@ -7,9 +7,14 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import "../sass/myStyle";
-//html,body{
-//    height:100%;
-//}
-//.flex-fill{
-//    flex: 1 1 auto;
-//}
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f8fafc;
+}

@@ -1,17 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-    {{--    <div class="row">--}}
-    {{--        <div class="col-lg-12 margin-tb">--}}
-    {{--            <div class="pull-left">--}}
-    {{--                <h2>Add New Product</h2>--}}
-    {{--            </div>--}}
-    {{--            <div class="pull-right">--}}
-    {{--                <a class="btn btn-primary" href="{{ route('clients.index') }}"> Back</a>--}}
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--    </div>--}}
          <div class="col-xs-2 col-sm-2 col-md-6 offset-3" style="margin-top: 7%;">
 
             @if ($message = Session::get('success'))
