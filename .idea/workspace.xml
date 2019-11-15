@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d33bd1-53db-4428-afb3-38780db7164d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/twitter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/clients/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clients/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -223,7 +213,7 @@
       <workItem from="1573757632982" duration="3456000" />
       <workItem from="1573762139495" duration="3775000" />
       <workItem from="1573769747807" duration="5074000" />
-      <workItem from="1573846059660" duration="10419000" />
+      <workItem from="1573846059660" duration="10623000" />
     </task>
     <task id="LOCAL-00001" summary="adding css">
       <created>1573855650562</created>
@@ -232,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573855650562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding more css">
+      <created>1573858615550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573858615550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +251,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding css" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css" />
+    <MESSAGE value="adding more css" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding more css" />
   </component>
 </project>

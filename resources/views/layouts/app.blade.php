@@ -24,7 +24,7 @@
 <div id="app" style="height: 100% !important;
     background: url({{asset('images/backgroundImg.jpg')}}) no-repeat;
     background-size: cover;
-         ">
+    ">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
@@ -92,14 +92,16 @@
                     <div>
                         <div class="mbr-social-likes social-likes social-likes_visible" data-counters="false">
                         <span class="btn btn-social facebook mx-1">
-                            <a href=""><img src="{{asset('images/facebook.png')}}" alt="" width="30px" height="30px"></a>
+                            <a href="https://tinyurl.com/rmh4lsv" target="_blank"><img src="{{asset('images/facebook.png')}}" alt="" width="30px" height="30px"></a>
                         </span>
-                            <span class="btn btn-social twitter mx-1" >
-                                <a href=""><img src="{{asset('images/twitter.png ')}}" alt=""width="30px" height="30px"></a>
+                            <span class="btn btn-social twitter mx-1">
+                                <a href=""><img src="{{asset('images/twitter.png ')}}" alt="" width="30px"
+                                                height="30px"></a>
                             </span>
-                            <span class="btn btn-social plusone mx-1" >
+                            <span class="btn btn-social plusone mx-1">
 
-                                <a href=""><img src="{{asset('images/linkedin.png')}}" alt="" width="30px" height="30px"></a>
+                                <a href=""><img src="{{asset('images/linkedin.png')}}" alt="" width="30px"
+                                                height="30px"></a>
 
                         </span>
 
@@ -108,7 +110,8 @@
                     </div>
                 </div>
             </div>
-        </div>    </main>
+        </div>
+    </main>
 </div>
 </body>
 </html>
