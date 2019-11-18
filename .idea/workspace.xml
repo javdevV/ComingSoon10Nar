@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d33bd1-53db-4428-afb3-38780db7164d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
@@ -213,7 +214,8 @@
       <workItem from="1573757632982" duration="3456000" />
       <workItem from="1573762139495" duration="3775000" />
       <workItem from="1573769747807" duration="5074000" />
-      <workItem from="1573846059660" duration="10623000" />
+      <workItem from="1573846059660" duration="12653000" />
+      <workItem from="1574114691636" duration="553000" />
     </task>
     <task id="LOCAL-00001" summary="adding css">
       <created>1573855650562</created>
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573858615550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding more css[links social media]">
+      <created>1573858909724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573858909724</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +261,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding css" />
     <MESSAGE value="adding more css" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding more css" />
+    <MESSAGE value="adding more css[links social media]" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding more css[links social media]" />
   </component>
 </project>

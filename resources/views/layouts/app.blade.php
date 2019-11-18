@@ -81,7 +81,7 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="container" >
         @yield('content')
         <div class="container" style="    position:fixed;
     top: 56%;
