@@ -11102,7 +11102,7 @@ a.text-dark:focus {
 
 body {
   margin: 0;
-  height: 100vh;
+  /*height: 100vh;*/
   font-family: "Nunito", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
