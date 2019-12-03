@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d33bd1-53db-4428-afb3-38780db7164d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +215,7 @@
       <workItem from="1573846059660" duration="12653000" />
       <workItem from="1574114691636" duration="2156000" />
       <workItem from="1574979375267" duration="21000" />
-      <workItem from="1575323193221" duration="5851000" />
+      <workItem from="1575323193221" duration="5955000" />
     </task>
     <task id="LOCAL-00001" summary="adding css">
       <created>1573855650562</created>
