@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Client;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use App\verifyEmail;
+use App\verifyEmailException;
 
 class ClientController extends Controller
 {
@@ -37,9 +39,34 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
+
+
         $request->validate(['email' => 'required']);
-        Client::create($request->all());
-        return redirect()->route('clients.create')->with('success', 'Your Email has been registered in our Database, You will be notified as soon as possible ');
+//        $email = 'upplysingar@reykjavik.is';
+        $email= $request->email;
+        $vmail = new verifyEmail();
+        $vmail->setStreamTimeoutWait(20);
+        $vmail->Debug= TRUE;
+        $vmail->Debugoutput= 'html';
+
+        $vmail->setEmailFrom('houssem.missaoui@esprit.tn');
+
+        if ($vmail->check($email)) {
+//            echo 'email &lt;' . $email . '&gt; exist!';
+//            \Log::info('email &lt;' . $email . '&gt; exist!');
+            Client::create($request->all());
+            return redirect()->route('clients.create')->with('success', 'Your Email has been registered in our Database, You will be notified as soon as possible ');
+        } elseif (verifyEmail::validate($email)) {
+//            echo 'email &lt;' . $email . '&gt; valid, but not exist!';
+            return redirect()->route('clients.create')->withErrors($email . ' is valid but does not exist');
+        } else {
+//            echo 'email &lt;' . $email . '&gt; not valid and not exist!';
+//            \Log::error('email &lt;' . $email . '&gt; not valid and not exist!');
+            return redirect()->route('clients.create')->withErrors( $email . ' is not valid and does not exist');
+        }
+
+//        Client::create($request->all());
+//        return redirect()->route('clients.create')->with('success', 'Your Email has been registered in our Database, You will be notified as soon as possible ');
     }
 
     /**
@@ -50,7 +77,7 @@ class ClientController extends Controller
      */
     public function show(Client $client)
     {
-        return view('clients.show',compact('client'));
+        return view('clients.show', compact('client'));
     }
 
     /**
