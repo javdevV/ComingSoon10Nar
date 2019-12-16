@@ -26,7 +26,7 @@
 </head>
 
 
-<body style="background-image: url({{asset('images/bg-comingsoon.png')}});
+<body style="background-image: url({{asset('images/jh0i36a.png')}});
     background-size: cover;
     background-repeat: no-repeat, repeat;
     overflow: hidden;
