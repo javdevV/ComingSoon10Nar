@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid" >
+    <div class="container-fluid">
 
 
         <div class="row" style="box-sizing: border-box;
@@ -10,7 +10,7 @@
             height: 91.78vh">
 
 
-            <div class="col-xs-2 col-sm-2 col-md-6 offset-3" style="margin-top: 7%;">
+            <div class="col-xs-6 col-sm-6 col-md-6 offset-3" style="margin-top: 7%;">
 
                 @if ($message = Session::get('success'))
                     <div class="alert alert-success">
@@ -22,6 +22,9 @@
                 @endif
                 @if ($errors->any())
                     <div class="alert alert-danger">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                         <strong>Whoops!</strong> There were some problems with your input.<br><br>
                         <ul>
                             @foreach ($errors->all() as $error)
@@ -59,19 +62,21 @@
                     </span>
                     </div>
 
-                                <div class="row input-group" style="margin-top: 41%; margin-left: 32%">
-                                    <div class="media-body">
-                                        <div class="col-md-5 align-center ">
-                                            <div>
-                                                <div class="mbr-social-likes social-likes social-likes_visible" data-counters="false">
+                    <div class="row input-group" style="margin-top: 41%; margin-left: 32%">
+                        <div class="media-body">
+                            <div class="col-md-5 align-center ">
+                                <div>
+                                    <div class="mbr-social-likes social-likes social-likes_visible"
+                                         data-counters="false">
                         <span class="btn btn-social facebook mx-1">
-                            <a href="https://tinyurl.com/rmh4lsv" target="_blank"><img src="{{asset('images/facebook.png')}}" alt="" width="30px" height="30px"></a>
+                            <a href="https://tinyurl.com/rmh4lsv" target="_blank"><img
+                                    src="{{asset('images/facebook.png')}}" alt="" width="30px" height="30px"></a>
                         </span>
-                                                    <span class="btn btn-social twitter mx-1">
+                                        <span class="btn btn-social twitter mx-1">
                                 <a href=""><img src="{{asset('images/twitter.png ')}}" alt="" width="30px"
                                                 height="30px"></a>
                             </span>
-                                                    <span class="btn btn-social plusone mx-1">
+                                        <span class="btn btn-social plusone mx-1">
 
                                 <a href=""><img src="{{asset('images/linkedin.png')}}" alt="" width="30px"
                                                 height="30px"></a>
@@ -79,17 +84,17 @@
                         </span>
 
 
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-                                </div>
-
-                </form>
+                            </div>
+                        </div>
+                    </div>
             </div>
 
+            </form>
         </div>
+
+    </div>
 
     </div>
 @endsection
