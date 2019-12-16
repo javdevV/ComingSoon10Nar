@@ -8,13 +8,10 @@
 @import '~bootstrap/scss/bootstrap';
 @import "../sass/myStyle";
 body {
-    margin: 0;
-    //height: 100vh;
-    font-family: "Nunito", sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #212529;
-    text-align: left;
-    background-color: #f8fafc;
+    background-image: url( 'https://i.imgur.com/jh0i36a.png');
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
