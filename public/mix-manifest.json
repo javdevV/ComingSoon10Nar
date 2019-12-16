@@ -1,10 +1,18 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
+    "/css/myStyle.css": "/css/myStyle.css",
+    "/images/10NAR-Logo-2-B.png": "/images/10NAR-Logo-2-B.png",
     "/images/backgroundImg.jpg": "/images/backgroundImg.jpg",
+    "/images/bg-comingsoon.png": "/images/bg-comingsoon.png",
+    "/images/Blogpost_GraphQL_CF.png": "/images/Blogpost_GraphQL_CF.png",
     "/images/coming-soon.jpg": "/images/coming-soon.jpg",
+    "/images/env.png": "/images/env.png",
+    "/images/f.png": "/images/f.png",
     "/images/facebook.png": "/images/facebook.png",
+    "/images/icon.png": "/images/icon.png",
+    "/images/jh0i36a.png": "/images/jh0i36a.png",
     "/images/linkedin.png": "/images/linkedin.png",
     "/images/logo.jpg": "/images/logo.jpg",
+    "/images/sd.png": "/images/sd.png",
     "/images/twitter.png": "/images/twitter.png"
 }
