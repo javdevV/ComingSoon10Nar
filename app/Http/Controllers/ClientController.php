@@ -54,8 +54,13 @@ class ClientController extends Controller
         if ($vmail->check($email)) {
 //            echo 'email &lt;' . $email . '&gt; exist!';
 //            \Log::info('email &lt;' . $email . '&gt; exist!');
-            Client::create($request->all());
-            return redirect()->route('clients.create')->with('success', 'Your Email has been registered in our Database, You will be notified as soon as possible ');
+            try{
+                Client::create($request->all());
+                return redirect()->route('clients.create')->with('success', 'Your Email has been registered in our Database, You will be notified as soon as possible ');
+            }
+            catch (\Illuminate\Database\QueryException  $e) {
+                return redirect()->route('clients.create')->withErrors($email . ' already exists');
+            }
         } elseif (verifyEmail::validate($email)) {
 //            echo 'email &lt;' . $email . '&gt; valid, but not exist!';
             return redirect()->route('clients.create')->withErrors($email . ' is valid but does not exist');
