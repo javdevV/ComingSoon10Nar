@@ -30,7 +30,7 @@
 <nav class="navbar navbar-light bg-light">
 {{--navbar navbar-expand-md navbar-light bg-white shadow-sm--}}
     <img src="{{asset('images/icon.png')}}"   alt="Italian Trulli">
-    <img src="{{asset('images/coming-soon.jpg')}}" alt="" style="width:200px;height: 30px;float: right!important;">
+    <img src="{{asset('images/coming-soon.png')}}" alt="" style="width:200px;height: 30px;float: right!important;">
 </nav>
 
 @yield('content')
