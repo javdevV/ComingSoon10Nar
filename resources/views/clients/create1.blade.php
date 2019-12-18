@@ -31,16 +31,18 @@
                 <form action="{{ route('clients.store') }}" method="POST">
                     @csrf
 
-                    <input type="text" name="email" size="30" required="" placeholder="Email"/>
+                    <input type="text" name="email" size="50" required="" placeholder="Email"/>
                     <button class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </form>
             </div>
             <!--//newsletter-->
             <div class="agileinfo-social-grids">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/10narnet/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Join un on Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/10narnet/" target="_blank"><i class="fa fa-instagram" data-toggle="tooltip" data-placement="bottom" title="Join un on Instagram"></i></a></li>
+{{--                    <li><a href=""><i class="fa fa-twitter"></i></a></li>--}}
+{{--                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>--}}
+
 
                 </ul>
             </div>

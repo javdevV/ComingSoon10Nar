@@ -11515,6 +11515,7 @@ button:hover {
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-facebook,
+.agileinfo-social-grids ul li a i.fa.fa-instagram,
 .agileinfo-social-grids ul li a i.fa.fa-twitter,
 .agileinfo-social-grids ul li a i.fa.fa-linkedin,
 .agileinfo-social-grids ul li a i.fa.fa-vk {
@@ -11537,7 +11538,11 @@ button:hover {
   background: #3b5998;
   color: #FFFFFF;
 }
-
+.agileinfo-social-grids ul li a i.fa.instagram:hover {
+    border: solid 2px #3b5998;
+    background: #3b5998;
+    color: #FFFFFF;
+}
 .agileinfo-social-grids ul li a i.fa.fa-twitter:hover {
   border: solid 2px #55acee;
   background: #55acee;
