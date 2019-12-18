@@ -26,22 +26,11 @@
 </head>
 
 
-<body style="background-image: url({{asset('images/jh0i36a.png')}});
-    background-size: cover;
-    background-repeat: no-repeat, repeat;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    font-family: "Roboto", sans-serif;
-font-size: 100%;
-background-attachment: fixed;
-text-align: center;">
+<body >
 <nav class="navbar navbar-light bg-light">
 {{--navbar navbar-expand-md navbar-light bg-white shadow-sm--}}
     <img src="{{asset('images/icon.png')}}"   alt="Italian Trulli">
-    <h1><bold style="
-    font-weight: bold;
-">Comming Soon</bold><br>Micro-services En Tunisie</h1>
+    <img src="{{asset('images/coming-soon.jpg')}}" alt="" style="width:200px;height: 30px;float: right!important;">
 </nav>
 
 @yield('content')
