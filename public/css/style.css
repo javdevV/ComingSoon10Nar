@@ -262,7 +262,7 @@ body a {
 	letter-spacing: 1px;
 }
 .video-w3l {
-     min-height: 800px;
+    min-height: 250px;
     display: grid;
 }
 /*--//banner--*/
@@ -300,7 +300,7 @@ h3.tittle {
     margin-bottom: 40px;
     color: #fff;
     text-align: center;
-    letter-spacing: 3px;	
+    letter-spacing: 3px;
 }
 .countdown-timer-w3laits h4 {
     margin-bottom:30px;
@@ -314,7 +314,7 @@ h3.tittle {
     width: 50%;
     margin: 3em auto 0;
 }
-.countdown-timer-w3laits h3  span{ 
+.countdown-timer-w3laits h3  span{
 	     color: #ff8c00;
 }
 span.simply-amount {

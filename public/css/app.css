@@ -11356,7 +11356,7 @@ body a {
 }
 
 .video-w3l {
-  min-height: 800px;
+    min-height: 250px;
   display: grid;
 }
 
@@ -11671,7 +11671,7 @@ button:hover {
 /*-- /responsive design --*/
 
 body {
-  background-image: url("https://i.imgur.com/jh0i36a.png");
+  background-image: url('../images/jh0i36a.png');
   background-size: cover;
   background-repeat: no-repeat, repeat;
   overflow: hidden;
