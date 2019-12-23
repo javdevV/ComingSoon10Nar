@@ -30,7 +30,9 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
 {{--navbar navbar-expand-md navbar-light bg-white shadow-sm--}}
     <div class="container-fluid">
+        <a class="navbar-brand" href="{{ url('/') }}">
     <img src="{{asset('images/logo.jpg')}}" width="55em" height="33em"  alt="Italian Trulli">
+        </a>
     <img src="{{asset('images/coming-soon.png')}}" alt="" style="width:200px;height: 30px;float: right!important;">
     </div>
 </nav>
