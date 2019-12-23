@@ -3,7 +3,7 @@
     <div class="video-w3l">
 
         <div class="agileinfo-grids" style="align-self: center; margin-bottom: 2%;">
-            <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6 col-sm-offset-3 col-xs-offset-3 col-lg-offset3 col-md-offset-3">
+            <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6 offset-3">
                 @if ($message = Session::get('success'))
                     <div class="alert alert-success">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -32,7 +32,7 @@
                     @csrf
 
                     <input type="text" name="email" size="50" required="" placeholder="Email"/>
-                    <button class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    <button class="btn1" data-toggle="tooltip" data-placement="bottom" title="Subscribe"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </form>
             </div>
             <!--//newsletter-->

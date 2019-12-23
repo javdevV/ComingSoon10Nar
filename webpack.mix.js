@@ -12,6 +12,7 @@ require('laravel-mix-imagemin');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    // .js('resources/js/enjoy-hint.js','public/js/enjoy-hint.js')
     // .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/myStyle.scss','public/css')
     .imagemin('resources/images/**.*',

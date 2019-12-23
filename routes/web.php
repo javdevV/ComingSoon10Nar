@@ -30,8 +30,11 @@ Auth::routes();
 Route::get('/','ClientController@create')->name('clients.create');
 Route::post('/','ClientController@store')->name('clients.store');
 Route::get('/clients','ClientController@index')->name('clients.index')->middleware(['verified']);
+Route::delete('/{client}','ClientController@destroy')->name('clients.destroy')->middleware(['verified']);
+//Auth::routes();
+//Route::resource('clients', 'ClientController');
 
-Auth::routes();
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 

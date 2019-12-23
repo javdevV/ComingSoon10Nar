@@ -271,14 +271,14 @@ h3.tittle {
 }
 
 .countdown-timer-w3laits {
-  background: url(/images/jh0i36a.png?489ff4b02812c7a0a2c31c7ae0b8a892) no-repeat 0px 0px;
+  background: url(/images/bg-comingsoon.png?489ff4b02812c7a0a2c31c7ae0b8a892) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
   min-height: 550px;
-    height: 91.78vh
+  height: 91.78vh;
 }
 
 .agile-its {
@@ -439,10 +439,11 @@ button:hover {
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-instagram:hover {
-    border: solid 2px #3b5998;
-    background:#3b5998;
-    color: #FFFFFF;
+  border: solid 2px #3b5998;
+  background: #3b5998;
+  color: #FFFFFF;
 }
+
 .agileinfo-social-grids ul li a i.fa.fa-twitter:hover {
   border: solid 2px #55acee;
   background: #55acee;

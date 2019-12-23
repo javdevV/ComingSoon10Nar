@@ -5,7 +5,7 @@
  */
 
 require('./bootstrap');
-
+require('jquery');
 window.Vue = require('vue');
 
 /**
@@ -30,3 +30,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+$("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
+    $("#success-alert").slideUp(500);
+});
+

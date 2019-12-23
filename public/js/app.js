@@ -49350,6 +49350,8 @@ module.exports = function(module) {
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -49370,6 +49372,9 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app'
+});
+$("#success-alert").fadeTo(2000, 500).slideUp(500, function () {
+  $("#success-alert").slideUp(500);
 });
 
 /***/ }),
