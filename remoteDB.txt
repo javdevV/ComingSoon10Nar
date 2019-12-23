@@ -1,0 +1,7 @@
+DB_CONNECTION=mysql
+DATABASE_URL=sql7.freemysqlhosting.net
+DB_HOST=sql7.freemysqlhosting.net
+DB_PORT=3306
+DB_DATABASE=sql7314129
+DB_USERNAME=sql7314129
+DB_PASSWORD=YgTlmryXzg

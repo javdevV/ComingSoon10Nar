@@ -5,7 +5,16 @@
         <div class="row justify-content-center">
             <div class="col-md-8" style="margin-top: 2%">
                 <div class="card">
-                    <div class="card-header">List of emails</div>
+                    <div class="card-header"><h1 style="float: left">List of emails</h1>
+                        <div style="float: right">
+                            <form action="{{ route('import') }}" method="POST" enctype="multipart/form-data">
+
+                                <a class="btn btn-success" href="{{ route('export') }}">Export</a>
+                            </form>
+
+                        </div>
+
+                    </div>
                     <div class="card-body">
                         @if ($message = Session::get('success'))
                             <div class="alert alert-success">

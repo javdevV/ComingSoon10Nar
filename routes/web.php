@@ -34,6 +34,8 @@ Route::delete('/{client}','ClientController@destroy')->name('clients.destroy')->
 //Auth::routes();
 //Route::resource('clients', 'ClientController');
 
+Route::get('export', 'ClientController@export')->name('export');
+Route::post('import', 'ClientController@import')->name('import');
 
 
 Route::get('/home', 'HomeController@index')->name('home');

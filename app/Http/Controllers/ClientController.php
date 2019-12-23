@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\verifyEmail;
 use App\verifyEmailException;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\ClientsExport;
+use App\Imports\ClientsImport;
 
 class ClientController extends Controller
 {
@@ -119,5 +122,23 @@ class ClientController extends Controller
         $client->delete();
 
         return redirect()->route('clients.index')->with('success', 'Client deleted successfully');
+    }
+
+    /**
+     * @return \Illuminate\Support\Collection
+     */
+    public function import()
+    {
+        Excel::import(new ClientsImport,request()->file('file'));
+
+        return back();
+    }
+
+    /**
+     * @return \Illuminate\Support\Collection
+     */
+    public function export(){
+        return Excel::download(new ClientsExport, 'clients.csv');
+
     }
 }
